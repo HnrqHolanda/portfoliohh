@@ -19,7 +19,7 @@ export default function Home() {
         {/* Conteúdo + Footer juntos em 100vh */}
         <main className="relative z-10 flex flex-col justify-between min-h-screen">
           {/* Conteúdo centralizado */}
-          <section className="flex-1 flex items-center justify-center px-6">
+          <section className="flex-1 flex items-center justify-center px-6 mt-10">
             <Content1 />
           </section>
 

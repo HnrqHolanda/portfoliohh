@@ -2,7 +2,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 export default function HeroText() {
   return (
-    <p className="text-5xl font-light text-white">
+    <p className="text-2xl md:text-4xl font-light text-white">
       <Typewriter
         words={["Estudante", "Desenvolvedor", "Entusiasta da Educação"]}
         loop={0} // 0 = infinito

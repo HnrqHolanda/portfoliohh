@@ -11,7 +11,7 @@ export default function InfoCard({ logo, title, description }) {
 
   return (
     <div
-      className={`bg-[#1c1c3a]/60 backdrop-blur-lg p-4 rounded-lg shadow-md border border-cyan-500/10 flex items-center gap-4 max-w-[550px] min-h-[160px] 
+      className={`bg-[#1c1c3a]/60 backdrop-blur-lg p-4 rounded-lg shadow-md border border-cyan-500/10 flex items-center gap-4 max-w-[600px] min-h-[160px] 
         transition-all duration-1000 ease-out transform 
         ${visible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"}
         hover:scale-105 hover:shadow-cyan-500/20`}

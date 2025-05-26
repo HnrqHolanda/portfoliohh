@@ -19,7 +19,7 @@ export default function Content1() {
     >
       {/* Imagem */}
       <div className="relative">
-        <div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-cyan-500 shadow-[0_0_40px_10px_rgba(168,85,247,0.4)] transition duration-300">
+        <div className="w-36 h-36 md:w-50 md:h-50 rounded-full overflow-hidden border-4 border-cyan-500 shadow-[0_0_40px_10px_rgba(168,85,247,0.4)] transition duration-300">
           <Image
             src={perfil_img}
             alt="Foto de perfil"
@@ -32,7 +32,7 @@ export default function Content1() {
 
       {/* Texto */}
       <div className="text-center md:text-left space-y-4">
-        <h1 className="text-3xl md:text-6xl font-bold leading-tight">
+        <h1 className="text-3xl md:text-5xl font-bold leading-tight">
           Olá! eu me chamo{" "}
           <span className="relative inline-block">
             <span className="text-cyan-400">Henrique Holanda</span>
@@ -40,7 +40,7 @@ export default function Content1() {
           </span>
         </h1>
         <HeroText />
-        <p className="text-2xl font-light underline underline-offset-4 decoration-cyan-600">
+        <p className="text-xl md:text-2xl font-light underline underline-offset-4 decoration-cyan-600">
           Sou estudante de Engenharia da Computação no Instituto Militar de Engenharia (IME), <br />
           entusiasmado em aprender novas ferramentas e implementar soluções para problemas reais.
         </p>
