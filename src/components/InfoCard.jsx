@@ -17,13 +17,13 @@ export default function InfoCard({ logo, title, description }) {
         hover:scale-105 hover:shadow-cyan-500/20`}
     >
       {/* Logo com tamanho fixo e borda arredondada */}
-      <div className="relative w-40 h-40 shrink-0 overflow-hidden">
+      <div className="relative w-20 h-20 md:w-40 md:h-40 shrink-0 overflow-hidden">
         <Image src={logo} alt={title} fill className="object-contain" />
       </div>
 
       {/* Conteúdo alinhado verticalmente */}
       <div className="flex flex-col justify-center">
-        <h3 className="text-2xl font-semibold mb-1">{title}</h3>
+        <h3 className="text-xl md:text-2xl font-semibold mb-1">{title}</h3>
         <p className="text-sm text-gray-300">{description}</p>
       </div>
     </div>
